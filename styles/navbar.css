@@ -1,0 +1,116 @@
+/* Navbar_1 */
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar1 {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 45px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.first_Part {
+  display: flex;
+  /* border: 2px solid green; */
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.second_Part {
+  width: 35%;
+  display: flex;
+  /* border: 1px solid blue; */
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+input {
+  height: 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  border: 1px solid aqua;
+  outline-color: aqua;
+}
+p:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+}
+
+
+/* Navbar_2 */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+#navbar_2 {
+  /* border: 1px solid red; */
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.first {
+  width: 45%;
+  /* height: 60px; */
+  /* border: 1px solid rgb(39, 56, 14); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.second {
+  width: 30%;
+  /* height: 60px; */
+  /* border: 1px solid rgb(39, 56, 14); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.second > button {
+  width: 40%;
+  height: 35px;
+  font-size: medium;
+  color: white;
+  background-color: orangered;
+  border: 0px;
+  border-radius: 5px;
+}
+.second > button:hover {
+    cursor: pointer;
+    color: black;
+    font-style: italic;
+    font-size: 15px;
+    background-color: greenyellow;
+}
+.image {
+  /* border: 1px solid blue; */
+  width: 20%;
+  /* height: 40px; */
+  cursor: pointer;
+}
+.image > img {
+  width: 100%;
+}
+.texts {
+  /* border: 1px solid blue; */
+  width: 50%;
+  /* height: 40px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.texts > p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+.texts > p:hover {
+  color: rgb(6, 144, 144);
+}
