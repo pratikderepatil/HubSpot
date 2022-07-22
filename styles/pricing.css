@@ -127,6 +127,112 @@ body{
 #box1in{
     display: flex;
 }
+.size-36 {
+    font-size: 36px;
+    }
+
+
+    #price_content{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        align-items: center;
+        gap:20px;
+
+        justify-items: center;
+        /* border: 1px solid red; */
+        
+    }
+    .marketingbox{
+        margin-top: 0%;
+        height: 1300px;
+    }
+    /* .center{
+        
+    } */
+    #m_buy>button{
+
+        width: 100%;
+        background-color: rgb(211, 19, 19);
+        color: white;
+        padding: 20px;
+        
+        text-align: center;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+    #price_btn1{
+        border-radius: 25px;
+        margin-right: -10px;
+        padding: 5px;
+        cursor: pointer;
+        
+    }
+    #price_btn2{
+        border-radius: 25px;
+        margin-left: -10px;
+        padding: 5px;
+        cursor: pointer;
+
+    }
+    h3{
+        color: rgb(0,145,174);
+    }
+    .contin{
+        display: flex;
+        /* align-items: center;
+        text-align: center; */
+    
+        /* border: 1px solid skyblue; */
+    
+    }
+    .contin>p{
+        
+        
+        margin-left: 200px;
+    
+    }
+    
+    #tick{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #contM{
+        border: 1px solid skyblue;
+        
+        
+    }
+    #idb>button{
+        cursor: pointer;
+        color: rgb(255,139,104);
+        margin-top: 30px;
+        width: 150px;
+        height: 40px;
+        
+        
+        background-color: rgb(245,248,250);
+        
+        margin-left: 600px;
+        
+        
+    
+    }
+    #idb>button:hover {
+        background-color:rgb(255,222,238)
+        
+      }
+      hr{
+        width: 90%;
+      }
+      
+    #recomain>h1{
+        text-align: center;
+    }
+    #m_buy{
+        margin-bottom: 30px;
+    }
+      
 
 
 
