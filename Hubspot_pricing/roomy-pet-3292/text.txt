@@ -1,0 +1,18 @@
+Project code: roomy-pet-3292
+Website Name: HubSpot.
+Website Link: https://www.hubspot.com/
+
+IA Assigned: Aman Kumar.
+
+Member-1: fw19_0267-Sachin Parmar.
+Member-2: fp04_462-Hirak Debadhikary.
+Member-3: fw19_0536-Karri Nagadurgaamrutha.
+Member-4: fw17_0811-Ejaz Ahmad.
+Member-5: fw19_1180-Pratik Derepatil (Team Lead).
+
+Task Assigned:
+Member-1: Product Overview > Marketing Hub.
+Member-2: Homepage(before Login), Navbar.
+Member-3: Login page, Homepage(after Login), Overview of all Products.
+Member-4: Pricing page > Marketing Hub.
+Member-5: Signup page, Footer, Contact sales.
