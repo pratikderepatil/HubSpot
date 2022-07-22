@@ -200,6 +200,9 @@ body{
     }
     #contM{
         border: 1px solid skyblue;
+        width: 80%;
+        margin: auto;
+        background-color: rgb(255,255,255);
         
         
     }
@@ -209,11 +212,12 @@ body{
         margin-top: 30px;
         width: 150px;
         height: 40px;
+        border: 1px solid rgb(255,139,104);
         
         
         background-color: rgb(245,248,250);
         
-        margin-left: 600px;
+        margin-left: 500px;
         
         
     
@@ -231,6 +235,58 @@ body{
     }
     #m_buy{
         margin-bottom: 30px;
+    }
+    #bund{
+        display: flex;
+        background-color: rgb(255,255,255);
+    }
+    #recomain{
+        border: 1px solid skyblue;
+        margin: auto;
+        width: 80%;
+    }
+    #bunbtn{
+        margin-left: 200px;
+    }
+    h1,h2{
+        text-align: center;
+    }
+    #bund1{
+        margin-left: 50px;
+        
+    }
+    .pnum>img{
+        width: 20px;
+    }
+    .pnum{
+        display: flex;
+        width: 270px;
+        height: 50px;
+        border: 1px solid khaki;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+
+        
+        margin: auto;
+
+    }
+    #laptoptranformation{
+        
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background-color: rgb(255,255,255)
+        ;
+    }
+    #lapImg>img{
+        width: 100%;
+
+    }
+    #lap2>img{
+        width: 100%;
+        margin-top: 50px;
+
     }
       
 
