@@ -1,0 +1,49 @@
+img{
+
+    width: 14%;
+    height: 6%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #373737;
+}
+#homepage_part1>p{
+    font-size: 20px;
+    text-align: center;
+    color: #373737;
+    
+}
+#homepage_part1{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+*{
+    background-color: azure;
+}
+#overview_navbar{
+    display: flex;
+    margin-left: 8%;
+    justify-content: left;
+   
+}
+#buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#buttons>button{
+    width:40%;
+    padding: 2%;
+    height:fit-content;
+    border-color: #f44336;
+}
+#buttons>button:nth-child(1){
+    color: #f44336;
+    margin-right: 2%;
+}
+#buttons>button:nth-child(2){
+    background-color: #f44336;
+}
