@@ -1,0 +1,238 @@
+#container{
+    width: 100%;
+    
+    
+}
+#main{
+    width: 100%;
+    height: 200px;
+    border: 1px solid green;
+    text-align: center;
+    background-color:rgb(0,181,172);
+    padding: 0px 0px 32px;
+    color: white;
+}
+#ander{
+    margin-top: 94px;
+justify-content: center;
+    display: flex;
+    
+}
+#pp{
+    background-color: white;
+    height: 15px;
+    padding: 15px;
+    cursor: pointer;
+    width: 200px;
+    color: black;
+}
+#bb{
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0%;
+    border: 1px solid gray;
+    height: 15px;
+    width: 200px;
+    color: black;
+
+}
+#aa{
+    display: flex;
+    justify-content: space-around;
+    height: 66px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    font-weight: 100;
+    
+    
+    
+}
+#aa>div{
+    margin: auto;
+    
+    cursor: pointer;
+    width: 10%;
+    
+    
+
+
+}
+#mm:focus{
+    background-color: skyblue;
+}
+div>h5{
+    text-align: center;
+}
+#ll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50px; */
+}
+span{
+    
+    font-size: 10px;
+    
+}
+#ss{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#n{
+    font-weight: bolder;
+}
+#nn{
+    
+    height: 20px;
+    margin-top:15px;
+}
+#sub{
+    display: flex;
+    border: 1px solid green;
+    justify-content: center;
+    background-color: rgb(229,245,248);
+}
+#su{
+    margin-top: 5px;
+}
+#tts{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#tts>button{
+    background-color:rgb(66,91,118);
+    color: white;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(245,248,250);
+}
+/* #box1{
+    
+    
+    
+} */
+#boxM{
+    display: flex;
+    margin: auto;
+    height: 70%;
+    border: 1px solid gold;
+
+}
+#box1in{
+    display: flex;
+}
+.size-36 {
+    font-size: 36px;
+    }
+
+
+    #price_content{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        align-items: center;
+        gap:20px;
+
+        justify-items: center;
+        /* border: 1px solid red; */
+        
+    }
+    .marketingbox{
+        margin-top: 0%;
+        height: 1300px;
+    }
+    /* .center{
+        
+    } */
+    #m_buy>button{
+
+        width: 100%;
+        background-color: rgb(211, 19, 19);
+        color: white;
+        padding: 20px;
+        
+        text-align: center;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+
+    #price_btn1{
+        border-radius: 25px;
+        margin-right: -10px;
+        padding: 5px;
+        cursor: pointer;
+        
+    }
+    #price_btn2{
+        border-radius: 25px;
+        margin-left: -10px;
+        padding: 5px;
+        cursor: pointer;
+
+    }
+    h3{
+        color: rgb(0,145,174);
+    }
+    .contin{
+        display: flex;
+        /* align-items: center;
+        text-align: center; */
+    
+        /* border: 1px solid skyblue; */
+    
+    }
+    .contin>p{
+        
+        
+        margin-left: 200px;
+    
+    }
+    
+    #tick{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #contM{
+        border: 1px solid skyblue;
+        
+        
+    }
+    #idb>button{
+        cursor: pointer;
+        color: rgb(255,139,104);
+        margin-top: 30px;
+        width: 150px;
+        height: 40px;
+        
+        
+        background-color: rgb(245,248,250);
+        
+        margin-left: 600px;
+        
+        
+    
+    }
+    #idb>button:hover {
+        background-color:rgb(255,222,238)
+        
+      }
+      hr{
+        width: 90%;
+      }
+      
+    #recomain>h1{
+        text-align: center;
+    }
+    #m_buy{
+        margin-bottom: 30px;
+    }
+      
+
+
+
