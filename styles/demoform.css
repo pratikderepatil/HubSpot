@@ -1,0 +1,45 @@
+.field,
+select,
+input:focus,
+select:focus,
+option {
+	outline: auto;
+	border: 1px;
+	width: 100%;
+	padding: 10px;
+}
+.fields {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+#input6 {
+	display: grid;
+	grid-template-columns: 48% 48%;
+	gap: 20px 4%;
+}
+#cont {
+	width: 40%;
+	margin: 2% auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 3%;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+a {
+	color: teal;
+}
+button {
+	width: 30%;
+	border: none;
+	color: white;
+	border-radius: 2px;
+	margin: auto;
+	padding: 10px;
+	background-color: rgb(252, 114, 64);
+}
+
+button:hover {
+	background-color: rgb(254, 143, 103);
+}

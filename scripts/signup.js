@@ -20,9 +20,10 @@ let signup1Func = () => {
 			firstname: x("firstname"),
 			lastname: x("lastname"),
 			email: x("email"),
+			phonenumber: x("phonenumber"),
+			
 		};
 		console.log(user);
-		localStorage.setItem("user", JSON.stringify(user));
 		signup2Func(user);
 	});
 };
@@ -130,6 +131,7 @@ let signup9Func = (user) => {
 			user = { ...user, companylocation: platform };
 			console.log(user);
 			users.push(user);
+			localStorage.setItem("users", JSON.stringify(users));
 			window.location.href = "./commingsoon.html";
 		});
 	});
