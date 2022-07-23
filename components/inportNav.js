@@ -36,7 +36,7 @@ let navbar = () => {
       <div id="navbar_2">
         <div class="first">
           <div class="image">
-            <a href="HomePage/homePage.html.html">
+            <a href="homePage.html">
               <img
                 src="https://www.linkpicture.com/q/Screenshot-2022-07-19-140429.png"
                 alt="logo"
