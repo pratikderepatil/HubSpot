@@ -89,9 +89,7 @@ h1{
 }
 #homepage_part2{
    display: flex;
-  
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
 }
 #sidebar{
     width: 20%;
@@ -100,16 +98,18 @@ h1{
 #Marketing_hub{
    
     display: flex;
-    border: 1px solid black;
-    justify-content: space-around;
-    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 70%;
+    height:max-content;
+    margin-top: 2%;
+    justify-content: space-between;
 }
 #marketing_head{
    display: flex;
    
 }
 #part1{
-    width: 40%;
+    width: 50%;
    margin: 3%;
     justify-content: center;
     display: grid;
@@ -118,4 +118,34 @@ h1{
 #marketing_head>img{
     width: 50px;
     height:50px;
+}
+#sidebar1{
+    display:grid;
+    justify-content: left;
+    row-gap: 25%;
+   
+}
+#sidebar1>button{
+   width: 200%;
+   height: 300%;
+   text-align: left;
+   border-color: #F5F8FA;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+ul{
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+#list{
+    display: flex;
+    justify-content: space-around;
+}
+#get_demo{
+    border-color: #FF5C35;
+    background-color: #FF5C35;
+    color: white;
+   height: 40px;
 }

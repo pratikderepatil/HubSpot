@@ -22,7 +22,7 @@ let signup1Func = () => {
 			email: x("email"),
 		};
 		console.log(user);
-		localStorage.setItem("user", JSON.stringify(user));
+		
 		signup2Func(user);
 	});
 };
@@ -110,6 +110,7 @@ let signup8Func = (user) => {
 			}
 			user = { ...user, crmusage: crmusage };
 			console.log(user);
+			
 			signup9Func(user);
 		});
 	}
@@ -130,7 +131,8 @@ let signup9Func = (user) => {
 			user = { ...user, companylocation: platform };
 			console.log(user);
 			users.push(user);
-			window.location.href = "./commingsoon.html";
+			localStorage.setItem("users", JSON.stringify(users));
+			window.location.href = "./login.html";
 		});
 	});
 };

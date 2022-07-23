@@ -20,28 +20,47 @@
     </div>
     <p>Looking for a specific product</p>
     <a href="#homepage_part2"> <button id="scroll">0</button></a>
-   
     </div>
     <div id="homepage_part2" class="section">
         <div id="sidebar">
             <P>The CRM platform includes</P>
-            <h3>Marketing</h3>
-            <h3>Sales</h3>
-            <h3>Customer services</h3>
-            <h3>CMS</h3>
-            <h3>Operations</h3>
-            <h3>Free Tools</h3>
+            <div id="sidebar1">
+            <button id="m" onclick="mar()">Marketing</button>
+            <button id="s" onclick="sales()">Sales</button>
+            <button id="cs" onclick="customer_services()">Customer services</button>
+            <button id="CMS" onclick="CMS()">CMS</button>
+            <button id="o" onclick="operations()">Operations</button>
+            <button id="f" onclick="free_tools()">Free Tools</button>
+            </div>
         </div>
         <div id="Marketing_hub">
             <div id="part1">
                 <div id="marketing_head">
-                    <img src="https://www.hubspot.com/hubfs/Product_Icon_Only_Marketing_Hub.png" alt=""> <h2>Marketing Hub </h2><sup>TM</sup>
+                    <img src="https://www.hubspot.com/hubfs/Product_Icon_Only_Marketing_Hub.png" alt="" id="m_image"> <h1 id="mhead">Marketing Hub </h1><sup>TM</sup>
                 </div>
-                <p>Marketing software to help you attract the right audience, convert more visitors into customers, and run complete inbound marketing campaigns at scale.</p>
-                <button>Get a Demo</button>
+                <p id="mp">Marketing software to help you attract the right audience, convert more visitors into customers, and run complete inbound marketing campaigns at scale.</p>
+                <button id="get_demo">Get a Demo</button>
             </div>
-            <div id="part2">
-               
+            <div id="part2"> 
+                <h3>Premium features</h3>
+                <div id="list">
+                    <div id="list_part1">
+                        <ul>
+                            <li>Premium versions of all free tools, plus ...</li>
+                            <li>Marketing automation</li>
+                            <li>SEO tools</li>
+                            <li>Video hosting & management</li>
+                        </ul>
+                    </div>
+                    <div id="list_part2">
+                        <ul>
+                            <li>Social media tools</li>
+                            <li>Blog & content creation tools</li>
+                            <li>Analytics dashboards</li>
+                            <li>Over 30 additional features</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
