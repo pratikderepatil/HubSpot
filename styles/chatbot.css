@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+#chatbot {
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	height: 90vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/contact-sales/left-corner-blob.png)
+			left bottom,
+		url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/contact-sales/right-corner-blobs.png)
+			right bottom,
+		#f5f8fa;
+	background-size: 32% auto, 40% auto;
+	background-repeat: no-repeat;
+	padding-bottom: 3.6rem;
+}
+
+#container {
+	padding: 50px 20px 0px 20px;
+	background: rgb(66, 91, 118);
+	background: linear-gradient(
+		180deg,
+		rgba(66, 91, 118, 1) 0%,
+		rgba(234, 239, 246, 1) 42%
+	);
+	border-radius: 10px;
+}
+
+#chat {
+	height: 60vh;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#input,
+#input:focus {
+	outline: none;
+	width: 60vw;
+	border: 0px;
+	padding: 15px;
+	margin-left: auto;
+}
+
+#messages {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	height: 90%;
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	border-bottom: 1px solid;
+}
+
+#bot {
+	margin-right: auto;
+}
+
+#user {
+	margin-left: auto;
+}
+
+.bot {
+	font-family: Consolas, "Courier New", Menlo, source-code-pro, Monaco,
+		monospace;
+}
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
