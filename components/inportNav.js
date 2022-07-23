@@ -1,50 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>navbar_1</title>
-    <link rel="stylesheet" href="./styles/navbar.css" />
-  </head>
-  <body>
-    <div id="total_Navbar">
-      <!-- Navbar_1 -->
-      <!-- <div id="navbar1">
-      <div class="first_Part">
-        <p id="eng">English</p>
+let navbar = () => {
+  return `<div id="navbar1">
+<div class="first_Part">
+  <p id="eng">English</p>
 
-        <div id="submenu_more">
-          <p>日本語</p>
-          <p>Deutsch</p>
-          <p>English</p>
-          <p>Español</p>
-          <p>Português</p>
-          <p>Français</p>
-        </div>
+  <div id="submenu_more">
+    <p>日本語</p>
+    <p>Deutsch</p>
+    <p>English</p>
+    <p>Español</p>
+    <p>Português</p>
+    <p>Français</p>
+  </div>
 
-        <p>Contact Sales</p>
-      </div>
+  <p>Contact Sales</p>
+</div>
 
-      <div class="second_Part">
-        <input type="search" placeholder="Search..." />
-        <p>Log in</p>
-        <p>Customer Support</p>
-        <p id="abo">About</p>
-        <div id="submenu_more1">
-          <p>About Us</p>
-          <p>Careers</p>
-          <p>Contact Us</p>
-          <p>Investor Relations</p>
-          <p>Management Team</p>
-        </div>
-      </div>
-    </div>
-      <!-- Navbar_2-
+<div class="second_Part">
+  <input type="search" placeholder="Search..." />
+  <p>Log in</p>
+  <p>Customer Support</p>
+  <p id="abo">About</p>
+  <div id="submenu_more1">
+    <p>About Us</p>
+    <p>Careers</p>
+    <p>Contact Us</p>
+    <p>Investor Relations</p>
+    <p>Management Team</p>
+  </div>
+</div>
+</div>
+
+
+
+
       <div id="navbar_2">
         <div class="first">
           <div class="image">
-            <a href="navbar.html">
+            <a href="HomePage/homePage.html.html">
               <img
                 src="https://www.linkpicture.com/q/Screenshot-2022-07-19-140429.png"
                 alt="logo"
@@ -167,8 +159,6 @@
         <div class="second">
           <button>Start free or get a demo</button>
         </div>
-      </div> -->
-    </div>
-  </body>
-</html>
-<script src="./scripts/navbar.js" type="module"></script>
+      </div>`;
+};
+export default navbar;
