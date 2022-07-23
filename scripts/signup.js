@@ -20,9 +20,10 @@ let signup1Func = () => {
 			firstname: x("firstname"),
 			lastname: x("lastname"),
 			email: x("email"),
+			phonenumber: x("phonenumber"),
+			
 		};
 		console.log(user);
-		
 		signup2Func(user);
 	});
 };
