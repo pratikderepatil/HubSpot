@@ -12,7 +12,7 @@ let validateuser=(email,password)=>{
         let homepage= JSON.stringify(s);
         localStorage.setItem("homepage",homepage); 
         if(email==userdata[i].email&&password==userdata[i].password){
-                    window.location.href="homepage.html";
+                    window.location.href="loginhomepage.html";
         }else{
                     if(email!=userdata[i].email){
                         console.log("Not a registeres user , sign up")
