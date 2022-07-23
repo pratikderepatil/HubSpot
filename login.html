@@ -9,27 +9,51 @@
         #img{
             display: flex;
             justify-content: center;
-          
+            padding: 0px;
         }
         img{
-            width: 30%;
-            height: 100%;
+            width: 250px;
+            height: 150px;
+            padding-bottom: 0px;
         }
         #form{
             display: grid;
             justify-content: center;
             width: 100%;
-            height: fit-content;
+            row-gap: 3%;
+           
+           
         }
         #form>input{
-            border: 1px solid blue;
-            background-color:aliceblue;
+            border: 1px solid skyblue;
+            background-color:#E8F0FE;
+            width:500px;
+            height: 40px;
             
-           
         }
         #signuplink{
             display: flex;
             justify-content: center;
+        }
+        #login{
+            border-color: #FF5C35;
+            background-color: #FF5C35;
+            color: white;
+           height: 40px;
+        }
+        #google_button{
+            background-color: #5886D4;
+            border-color: #5886D4;
+            height: 40px;
+            color: white;
+            font: bold;
+        }
+        #sso_button{
+            background-color: #425B76;
+            border-color: #425B76;
+            height: 40px;
+            color: white;
+            font: bold;
         }
     </style>
 </head>
@@ -45,10 +69,11 @@
         <input type="email" id="login_email">
         <p>Password</p>
         <input type="password" id="login_pass">
-        <button onclick="login()">Login</button>
+        <div id="message"></div>
+        <button onclick="login()" id="login">Login</button>
         <hr>
-        <button>Sign in with Google</button>
-        <button>Login with SSO</button>
+        <button id="google_button">sign in with Google</button>
+        <button id="sso_button">Login with SSO</button>
     </div>
 </body>
 </html>
