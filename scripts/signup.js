@@ -111,6 +111,7 @@ let signup8Func = (user) => {
 			}
 			user = { ...user, crmusage: crmusage };
 			console.log(user);
+			
 			signup9Func(user);
 		});
 	}
@@ -132,7 +133,7 @@ let signup9Func = (user) => {
 			console.log(user);
 			users.push(user);
 			localStorage.setItem("users", JSON.stringify(users));
-			window.location.href = "./commingsoon.html";
+			window.location.href = "./login.html";
 		});
 	});
 };
