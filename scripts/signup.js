@@ -21,7 +21,6 @@ let signup1Func = () => {
 			lastname: x("lastname"),
 			email: x("email"),
 			phonenumber: x("phonenumber"),
-			
 		};
 		console.log(user);
 		signup2Func(user);
@@ -111,7 +110,7 @@ let signup8Func = (user) => {
 			}
 			user = { ...user, crmusage: crmusage };
 			console.log(user);
-			
+
 			signup9Func(user);
 		});
 	}

@@ -1,5 +1,5 @@
 let navbar = () => {
-  return `<div id="navbar1">
+	return `<div id="navbar1">
 <div class="first_Part">
   <p id="eng">English</p>
 
@@ -12,12 +12,12 @@ let navbar = () => {
     <p>Français</p>
   </div>
 
-  <p>Contact Sales</p>
+  <p id="contactsales">Contact Sales</p>
 </div>
 
 <div class="second_Part">
   <input type="search" placeholder="Search..." />
-  <p>Log in</p>
+  <p id="login">Log in</p>
   <p>Customer Support</p>
   <p id="abo">About</p>
   <div id="submenu_more1">
@@ -36,7 +36,7 @@ let navbar = () => {
       <div id="navbar_2">
         <div class="first">
           <div class="image">
-            <a href="homePage.html">
+            <a href="./index.html">
               <img
                 src="https://www.linkpicture.com/q/Screenshot-2022-07-19-140429.png"
                 alt="logo"
@@ -44,7 +44,7 @@ let navbar = () => {
             </a>
           </div>
           <div class="texts">
-            <p id="OnHover">Softwere</p>
+            <p id="OnHover">Software</p>
             <div id="soft">
               <div>
                 <p>The HubSpot CRM Platform</p>
@@ -56,12 +56,12 @@ let navbar = () => {
 
               <div class="inSide_Div">
                 <div>Free HubSpot CRM</div>
-                <div>Overview Of All Products</div>
+                <div id="overvi">Overview Of All Products</div>
               </div>
 
               <div id="all_Divs">
                 <div>
-                  <div class="inner">
+                  <div class="inner" id="marketing123">
                     <div>
                       <div>
                         <img

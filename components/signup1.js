@@ -21,7 +21,7 @@ let signup1 = () => {
 					provide to us to contact you about our relevant content, products, and
 					services. You may unsubscribe from these communications at any time.
 					For more information, check out our
-					<a href="./commingsoon.html">Privacy Policy</a>
+					<a href="../comingsoon.html">Privacy Policy</a>
 				</p>
 			</div>
 			<div>
@@ -112,7 +112,7 @@ let signup7 = () => {
 				<button id="next">Create Account ></button>
 				<p style="text-align: center;width: 90%;">
 					By creating an account you are agreeing to the
-					<a href="./commingsoon.html">HubSpot Customer Terms of Service</a>
+					<a href="../comingsoon.html">HubSpot Customer Terms of Service</a>
 				</p>
 			</div>
 			<div>
