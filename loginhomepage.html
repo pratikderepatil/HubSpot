@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #FF5C35;
+           
+        }
+        h3{
+            font-size: 100px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+   <div id="container"></div>
+   <a href="">Profile & preferences.....</a>
+</body>
+</html>
+<script>
+    let industry_name= JSON.parse(localStorage.getItem("homepage"));
+    industry_name=(industry_name.industry)
+    let container=document.getElementById("container");
+    let h3 = document.createElement("h3");
+    h3.innerText=` Welcome to ${industry_name} page`;
+    container.append(h3)
+</script>

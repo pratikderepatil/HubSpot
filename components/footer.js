@@ -1,51 +1,51 @@
 let freetools = [
-	{ Name: "Website Grader", link: "../commingsoon.html" },
-	{ Name: "Make My Persona", link: "../commingsoon.html" },
-	{ Name: "Email Signature Generator", link: "../commingsoon.html" },
-	{ Name: "Blog Ideas Generator", link: "../commingsoon.html" },
-	{ Name: "Invoice Template Generator", link: "../commingsoon.html" },
-	{ Name: "Marketing Plan Generator", link: "../commingsoon.html" },
-	{ Name: "Free Business Templates", link: "../commingsoon.html" },
-	{ Name: "Industry Benchmark Data", link: "../commingsoon.html" },
-	{ Name: "Software Comparisons Library", link: "../commingsoon.html" },
-	{ Name: "Website Themes & Templates", link: "../commingsoon.html" },
+	{ Name: "Website Grader", link: "../comingsoon.html" },
+	{ Name: "Make My Persona", link: "../comingsoon.html" },
+	{ Name: "Email Signature Generator", link: "../comingsoon.html" },
+	{ Name: "Blog Ideas Generator", link: "../comingsoon.html" },
+	{ Name: "Invoice Template Generator", link: "../comingsoon.html" },
+	{ Name: "Marketing Plan Generator", link: "../comingsoon.html" },
+	{ Name: "Free Business Templates", link: "../comingsoon.html" },
+	{ Name: "Industry Benchmark Data", link: "../comingsoon.html" },
+	{ Name: "Software Comparisons Library", link: "../comingsoon.html" },
+	{ Name: "Website Themes & Templates", link: "../comingsoon.html" },
 ];
 let customer = [
-	{ Name: "Customer Support", link: "../commingsoon.html" },
-	{ Name: "Join a Local User Group", link: "../commingsoon.html" },
+	{ Name: "Customer Support", link: "../comingsoon.html" },
+	{ Name: "Join a Local User Group", link: "../comingsoon.html" },
 ];
 let partners = [
-	{ Name: "All Partner Programs", link: "../commingsoon.html" },
-	{ Name: "Solutions Partner Program", link: "../commingsoon.html" },
-	{ Name: "App Partner Program", link: "../commingsoon.html" },
-	{ Name: "HubSpot for Startups", link: "../commingsoon.html" },
-	{ Name: "Affiliate Program", link: "../commingsoon.html" },
+	{ Name: "All Partner Programs", link: "../comingsoon.html" },
+	{ Name: "Solutions Partner Program", link: "../comingsoon.html" },
+	{ Name: "App Partner Program", link: "../comingsoon.html" },
+	{ Name: "HubSpot for Startups", link: "../comingsoon.html" },
+	{ Name: "Affiliate Program", link: "../comingsoon.html" },
 ];
 let company = [
-	{ Name: "About Us", link: "../commingsoon.html" },
-	{ Name: "Careers", link: "../commingsoon.html" },
-	{ Name: "Management Team", link: "../commingsoon.html" },
-	{ Name: "Board of Directors", link: "../commingsoon.html" },
-	{ Name: "Investor Relations", link: "../commingsoon.html" },
-	{ Name: "Blog", link: "../commingsoon.html" },
-	{ Name: "Contact Us", link: "../commingsoon.html" },
+	{ Name: "About Us", link: "../comingsoon.html" },
+	{ Name: "Careers", link: "../comingsoon.html" },
+	{ Name: "Management Team", link: "../comingsoon.html" },
+	{ Name: "Board of Directors", link: "../comingsoon.html" },
+	{ Name: "Investor Relations", link: "../comingsoon.html" },
+	{ Name: "Blog", link: "../comingsoon.html" },
+	{ Name: "Contact Us", link: "../comingsoon.html" },
 ];
 let popular = [
-	{ Name: "Free Meeting Scheduler App", link: "../commingsoon.html" },
-	{ Name: "Social Media Tools", link: "../commingsoon.html" },
-	{ Name: "Email Tracking Software", link: "../commingsoon.html" },
-	{ Name: "Sales Email Automation", link: "../commingsoon.html" },
-	{ Name: "Ads Software", link: "../commingsoon.html" },
-	{ Name: "Email Marketing Software", link: "../commingsoon.html" },
-	{ Name: "Lead Management Software", link: "../commingsoon.html" },
-	{ Name: "Pipeline Management Tools", link: "../commingsoon.html" },
-	{ Name: "Sales Email Templates", link: "../commingsoon.html" },
-	{ Name: "Help Desk Software", link: "../commingsoon.html" },
-	{ Name: "Free Online Form Builder", link: "../commingsoon.html" },
-	{ Name: "Free Chatbot Builder", link: "../commingsoon.html" },
-	{ Name: "Free Live Chat Software", link: "../commingsoon.html" },
-	{ Name: "Marketing Analytics", link: "../commingsoon.html" },
-	{ Name: "Free Landing Page Builder", link: "../commingsoon.html" },
+	{ Name: "Free Meeting Scheduler App", link: "../comingsoon.html" },
+	{ Name: "Social Media Tools", link: "../comingsoon.html" },
+	{ Name: "Email Tracking Software", link: "../comingsoon.html" },
+	{ Name: "Sales Email Automation", link: "../comingsoon.html" },
+	{ Name: "Ads Software", link: "../comingsoon.html" },
+	{ Name: "Email Marketing Software", link: "../comingsoon.html" },
+	{ Name: "Lead Management Software", link: "../comingsoon.html" },
+	{ Name: "Pipeline Management Tools", link: "../comingsoon.html" },
+	{ Name: "Sales Email Templates", link: "../comingsoon.html" },
+	{ Name: "Help Desk Software", link: "../comingsoon.html" },
+	{ Name: "Free Online Form Builder", link: "../comingsoon.html" },
+	{ Name: "Free Chatbot Builder", link: "../comingsoon.html" },
+	{ Name: "Free Live Chat Software", link: "../comingsoon.html" },
+	{ Name: "Marketing Analytics", link: "../comingsoon.html" },
+	{ Name: "Free Landing Page Builder", link: "../comingsoon.html" },
 ];
 
 let displayFunc = (data, str, clas) => {
@@ -120,6 +120,7 @@ let footerFunc = () => {
 
 	let img = document.createElement("img");
 	img.src = "../images/socialmedia.png";
+	img.style.width = "auto";
 	cont3.append(div6, img, div7);
 
 	let cont4 = document.createElement("div");
@@ -131,6 +132,7 @@ let footerFunc = () => {
 	let img1 = document.createElement("img");
 	img1.src =
 		"https://www.hubspot.com/hubfs/WBZ-1165%20Global%20Nav%20Redesign/Wordmark-White.svg";
+	img1.style.width = "auto";
 	img1.addEventListener("click", () => {
 		window.location.href = "../index.html";
 	});
@@ -145,7 +147,7 @@ let footerFunc = () => {
 
 	let a = document.createElement("a");
 	a.innerText = "Legal Stuff";
-	a.href = "../commingsoon.html";
+	a.href = "../comingsoon.html";
 	a.style.color = "#fff";
 	a.addEventListener("mouseover", (event) => {
 		event.target.style.color = "#0091ae";
@@ -157,7 +159,7 @@ let footerFunc = () => {
 	});
 	let a2 = document.createElement("a");
 	a2.innerText = "Privacy Policy";
-	a2.href = "../commingsoon.html";
+	a2.href = "../comingsoon.html";
 	a2.style.color = "#fff";
 	a2.style.borderRight = "1px solid #99b1cc";
 	a2.style.borderLeft = "1px solid #99b1cc";
@@ -173,7 +175,7 @@ let footerFunc = () => {
 
 	let a3 = document.createElement("a");
 	a3.innerText = "Security";
-	a3.href = "../commingsoon.html";
+	a3.href = "../comingsoon.html";
 	a3.style.color = "#fff";
 	a3.addEventListener("mouseover", (event) => {
 		event.target.style.color = "#0091ae";

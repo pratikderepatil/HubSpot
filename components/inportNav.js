@@ -1,50 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
-    <link rel="stylesheet" href="./styles/navbar.css" />
-  </head>
-  <body>
-    <div id="total_Navbar">
-      <!-- Navbar_1 -->
-      <!-- <div id="navbar1">
-        <div class="first_Part">
-          <p id="eng">English</p>
+let navbar = () => {
+	return `<div id="navbar1">
+<div class="first_Part">
+  <p id="eng" class="pclass">English</p>
 
-          <div id="submenu_more">
-            <p>日本語</p>
-            <p>Deutsch</p>
-            <p>English</p>
-            <p>Español</p>
-            <p>Português</p>
-            <p>Français</p>
-          </div>
+  <div id="submenu_more">
+    <p class="pclass">日本語</p>
+    <p class="pclass">Deutsch</p>
+    <p class="pclass">English</p>
+    <p class="pclass">Español</p>
+    <p class="pclass">Português</p>
+    <p class="pclass">Français</p>
+  </div>
 
-          <p>Contact Sales</p>
-        </div>
+  <p class="pclass" id="contactsales">Contact Sales</p>
+</div>
 
-        <div class="second_Part">
-          <input type="search" placeholder="Search..." />
-          <p>Log in</p>
-          <p>Customer Support</p>
-          <p id="abo">About</p>
-          <div id="submenu_more1">
-            <p>About Us</p>
-            <p>Careers</p>
-            <p>Contact Us</p>
-            <p>Investor Relations</p>
-            <p>Management Team</p>
-          </div>
-        </div>
-      </div>
+<div class="second_Part">
+  <input type="search" placeholder="Search..." />
+  <p id="login" class="pclass">Log in</p>
+  <p class="pclass">Customer Support</p>
+  <p id="abo" class="pclass">About</p>
+  <div id="submenu_more1">
+    <p class="pclass">About Us</p>
+    <p class="pclass">Careers</p>
+    <p class="pclass">Contact Us</p>
+    <p class="pclass">Investor Relations</p>
+    <p class="pclass">Management Team</p>
+  </div>
+</div>
+</div>
+
+
+
 
       <div id="navbar_2">
         <div class="first">
           <div class="image">
-            <a href="navbar.html">
+            <a href="./index.html">
               <img
                 src="https://www.linkpicture.com/q/Screenshot-2022-07-19-140429.png"
                 alt="logo"
@@ -52,11 +44,11 @@
             </a>
           </div>
           <div class="texts">
-            <p id="OnHover">Softwere</p>
+            <p id="OnHover" class="pclass">Software</p>
             <div id="soft">
               <div>
-                <p>The HubSpot CRM Platform</p>
-                <p>
+                <p class="pclass">The HubSpot CRM Platform</p>
+                <p class="pclass">
                   All of HubSpot’s marketing, sales CRM, customer service, CMS,
                   and operations software on one platform.
                 </p>
@@ -64,12 +56,12 @@
 
               <div class="inSide_Div">
                 <div>Free HubSpot CRM</div>
-                <div>Overview Of All Products</div>
+                <div id="overvi">Overview Of All Products</div>
               </div>
 
               <div id="all_Divs">
                 <div>
-                  <div class="inner">
+                  <div class="inner" id="marketing123">
                     <div>
                       <div>
                         <img
@@ -82,8 +74,8 @@
                       </div>
                     </div>
 
-                    <p class="p1">Marketing automation software</p>
-                    <p style="color: #03a7ba">Free and premium plans</p>
+                    <p class="p1" class="pclass">Marketing automation software</p>
+                    <p  class="pclass" style="color: #03a7ba">Free and premium plans</p>
                   </div>
                 </div>
                 <div>
@@ -100,8 +92,8 @@
                       </div>
                     </div>
 
-                    <p class="p1">Sales CRM software.</p>
-                    <p style="color: #03a7ba">Free and premium plans</p>
+                    <p class="pclass" class="p1">Sales CRM software.</p>
+                    <p  class="pclass" style="color: #03a7ba">Free and premium plans</p>
                   </div>
                 </div>
                 <div>
@@ -118,8 +110,8 @@
                       </div>
                     </div>
 
-                    <p class="p1">Customer service software.</p>
-                    <p style="color: #03a7ba">Free and premium plans</p>
+                    <p class="pclass" class="p1">Customer service software.</p>
+                    <p class="pclass" style="color: #03a7ba">Free and premium plans</p>
                   </div>
                 </div>
                 <div>
@@ -136,8 +128,8 @@
                       </div>
                     </div>
 
-                    <p class="p1">Content management software</p>
-                    <p style="color: #03a7ba">Free and premium plans</p>
+                    <p class="pclass" class="p1">Content management software</p>
+                    <p class="pclass" style="color: #03a7ba">Free and premium plans</p>
                   </div>
                 </div>
                 <div>
@@ -154,21 +146,19 @@
                       </div>
                     </div>
 
-                    <p class="p1">Operations software</p>
-                    <p style="color: #03a7ba">Free and premium plans</p>
+                    <p class="pclass" class="p1">Operations software</p>
+                    <p class="pclass" style="color: #03a7ba">Free and premium plans</p>
                   </div>
                 </div>
               </div>
             </div>
-            <p>Pricing</p>
-            <p>Resoures</p>
+            <p class="pclass" id="pricei">Pricing</p>
+            <p class="pclass">Resoures</p>
           </div>
         </div>
-        <div class="second">
+        <div class="second" id="demofrom">
           <button>Start free or get a demo</button>
         </div>
-      </div>
-    </div> -->
-  </body>
-</html>
-<script src="./scripts/navbar.js" type="module"></script>
+      </div>`;
+};
+export default navbar;

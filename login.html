@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #img{
-            display: flex;
-            justify-content: center;
-          
-        }
-        img{
-            width: 30%;
-            height: 100%;
-        }
-        #form{
-            display: grid;
-            justify-content: center;
-            width: 100%;
-            height: fit-content;
-        }
-        #form>input{
-            border: 1px solid blue;
-            background-color:aliceblue;
-            
-           
-        }
-        #signuplink{
-            display: flex;
-            justify-content: center;
-        }
-    </style>
-</head>
-<body>
-    <div id="img">
-    <img src="https://i.pcmag.com/imagery/reviews/068ihJFxa9hBEC4x39SyWiH-7.fit_lim.size_640x358.v1569476759.jpg" alt="logo">
-    </div>
-    <div id="signuplink">
-        <span>Don't have an account ?</span><a href="">signup</a>
-    </div>
-    <div id="form">
-        <p>Email Address</p>
-        <input type="email" id="login_email">
-        <p>Password</p>
-        <input type="password" id="login_pass">
-        <button onclick="login()">Login</button>
-        <hr>
-        <button>Sign in with Google</button>
-        <button>Login with SSO</button>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HubSpot Login</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/hubspot_0.png"
+		/>
+		<style>
+			#img {
+				display: flex;
+				justify-content: center;
+				padding: 0px;
+			}
+			img {
+				width: 250px;
+				height: 150px;
+				padding-bottom: 0px;
+			}
+			#form {
+				display: grid;
+				justify-content: center;
+				width: 100%;
+				row-gap: 3%;
+			}
+			#form > input {
+				border: 1px solid skyblue;
+				background-color: #e8f0fe;
+				width: 500px;
+				height: 40px;
+			}
+			#signuplink {
+				display: flex;
+				justify-content: center;
+			}
+			#login {
+				border-color: #ff5c35;
+				background-color: #ff5c35;
+				color: white;
+				height: 40px;
+			}
+			#google_button {
+				background-color: #5886d4;
+				border-color: #5886d4;
+				height: 40px;
+				color: white;
+				font: bold;
+			}
+			#sso_button {
+				background-color: #425b76;
+				border-color: #425b76;
+				height: 40px;
+				color: white;
+				font: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="img">
+			<img
+				src="https://i.pcmag.com/imagery/reviews/068ihJFxa9hBEC4x39SyWiH-7.fit_lim.size_640x358.v1569476759.jpg"
+				alt="logo"
+			/>
+		</div>
+		<div id="signuplink">
+			<span>Don't have an account ?</span><a href="./signup.html">signup</a>
+		</div>
+		<div id="form">
+			<p>Email Address</p>
+			<input type="email" id="login_email" />
+			<p>Password</p>
+			<input type="password" id="login_pass" />
+			<div id="message"></div>
+			<button onclick="login()" id="login">Login</button>
+			<hr />
+			<button id="google_button">sign in with Google</button>
+			<button id="sso_button">Login with SSO</button>
+		</div>
+	</body>
 </html>
 <script src="./scripts/login.js"></script>

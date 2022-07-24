@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth;
+}
+img{
+
+    width: 14%;
+    height: 6%;
+}
+h1{
+    font-size: 46px;
+    text-align: center;
+    color: #33475b;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#homepage_part1>p{
+    font-size: 20px;
+    text-align: center;
+    color: #33475b;
+    
+}
+#homepage_part1{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    min-height: 100vh;
+    
+}
+#homepage_part2{
+    min-height: 100vh;
+    width: 100%;
+}
+*{
+    background-color: #F5F8FA;
+}
+#overview_navbar{
+    display: flex;
+    margin-left: 8%;
+    justify-content: left;
+   
+}
+#buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+#buttons>button{
+    width:40%;
+    padding: 2%;
+    height:fit-content;
+    border-color: #FF5C35;
+}
+#buttons>button:nth-child(1){
+    color: #FF5C35;
+    margin-right: 2%;
+}
+#buttons>button:nth-child(2){
+    background-color: #FF5C35;
+}
+
+#scroll{
+    position:absolute;
+    left: 50%;
+    bottom: 20%;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 0px;
+    cursor:pointer;
+    font-size: 50px;
+    color: transparent;
+    
+}
+#scroll::before,
+#scroll::after{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+#homepage_part2{
+   display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#sidebar{
+    width: 20%;
+
+}
+#Marketing_hub{
+   
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 60%;
+    height:400px;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+#marketing_head{
+   display: flex;
+   justify-content: center;
+}
+#part1{
+    width: 50%;
+   margin: 3%;
+    justify-content: space-around;
+    display: grid;
+    align-items: center;
+}
+#marketing_head>img{
+    width: 50px;
+    height:50px;
+}
+#sidebar1{
+    display:grid;
+    justify-content: left;
+    row-gap: 25%;
+   
+}
+#sidebar1>button{
+   width: 200%;
+   height: 300%;
+   text-align: left;
+   border-color: #F5F8FA;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+ul{
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+#list{
+    display: flex;
+    
+}
+#get_demo{
+    border-color: #FF5C35;
+    background-color: #FF5C35;
+    color: white;
+   height: 40px;
+}
+#part2{
+    margin-top: 10%;
+    width: 50%;
+}
+#list_part1{
+    width: 50%;
+}
+#list_part2{
+    width: 50%;
+}
+#part1>p{
+    font-size: 20px;
+    color: #33475b;
+    line-height: 28px;
+}

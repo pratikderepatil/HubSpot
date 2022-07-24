@@ -1,0 +1,13 @@
+body {
+	background-image: url("https://f.hubspotusercontent00.net/hubfs/53/assets/hubspot.com/contact-sales/Hubspot-Santa-Cruz-web-6@2x-compressor-2-1.png");
+	background-repeat: no-repeat;
+	background-size: 42vw;
+	background-position: top;
+	background-position: right;
+	background-color: #fff;
+	height: 90vh;
+}
+#containinner {
+	width: 70%;
+	margin: auto auto;
+}

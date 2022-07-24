@@ -1,4 +1,5 @@
 import navbar from "../components/inportNav.js";
-// console.log(navbar());
-footerFunc();
+import { footerFunc } from "../components/footer.js";
+
 document.getElementById("total_Navbar").innerHTML = navbar();
+footerFunc();

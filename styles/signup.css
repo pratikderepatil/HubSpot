@@ -1,0 +1,56 @@
+#head {
+	padding: 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#head > img {
+	width: 9%;
+}
+#head > p > a:hover {
+	text-decoration: underline;
+}
+#head > p {
+	font-size: 20px;
+	margin: 05px;
+}
+
+#head > p > a {
+	text-decoration: none;
+	color: #0091ae;
+}
+#main {
+	display: grid;
+	grid-template-columns: 35% 35%;
+	gap: 5%;
+	justify-content: center;
+	font-size: 110%;
+}
+
+input,
+input:focus,
+select {
+	outline: none;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 90%;
+	padding: 5px;
+	font-size: 20px;
+}
+#main > div {
+	padding: 3%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+button {
+	width: 90%;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: orangered;
+	border: 0px;
+	color: white;
+	font-size: 20px;
+}
