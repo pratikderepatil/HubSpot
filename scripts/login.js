@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let login = async () => {
 	let email = document.getElementById("login_email").value;
 	let password = document.getElementById("login_pass").value;
@@ -55,3 +56,5 @@ let validateuser = (email, password) => {
 		}
 	}
 };
+=======
+>>>>>>> aa991a244c7a8b0f9005523424a361337a4962ce
