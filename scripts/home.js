@@ -5,10 +5,6 @@ import { footerFunc } from "../components/footer.js";
 document.getElementById("total_Navbar").innerHTML = navbar();
 footerFunc();
 
-document.getElementById("contactsales").addEventListener("click", () => {
-	window.location.href = "./contactsales.html";
-});
-
 document.getElementById("login").addEventListener("click", () => {
 	window.location.href = "./login.html";
 });
@@ -19,4 +15,12 @@ document.getElementById("marketing123").addEventListener("click", () => {
 
 document.getElementById("overvi").addEventListener("click", () => {
 	window.location.href = "./Overview.html";
+});
+
+document.getElementById("pricei").addEventListener("click", () => {
+	window.location.href = "./pricing.html";
+});
+
+document.getElementById("demofrom").addEventListener("click", () => {
+	window.location.href = "./contactsales.html";
 });

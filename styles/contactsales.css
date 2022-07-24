@@ -3,7 +3,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: 42vw;
 	background-position: top;
-	margin: -20% auto 20% auto;
 	background-position: right;
 	background-color: #fff;
 	height: 90vh;
@@ -11,7 +10,4 @@ body {
 #containinner {
 	width: 70%;
 	margin: auto auto;
-}
-#containinner > h1 {
-	margin-top: 30%;
 }
