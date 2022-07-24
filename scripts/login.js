@@ -32,7 +32,6 @@ let validateuser=(email,password)=>{
                         return;
                     }else if(password!=userdata[i].password){
                         let message = document.getElementById("message");
-                        message="";
                         let h3 = document.createElement('h1');
                         h3.innerText="This doesn't look right";
                         let p = document.createElement('span');
