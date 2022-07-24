@@ -11,6 +11,10 @@ import {
 	signup9,
 } from "../components/signup1.js";
 
+let x = (id) => {
+	return document.getElementById(id).value;
+};
+
 let users = JSON.parse(localStorage.getItem("users")) || [];
 
 let signup1Func = () => {
@@ -20,7 +24,6 @@ let signup1Func = () => {
 			firstname: x("firstname"),
 			lastname: x("lastname"),
 			email: x("email"),
-			phonenumber: x("phonenumber"),
 		};
 		console.log(user);
 		signup2Func(user);
@@ -135,10 +138,6 @@ let signup9Func = (user) => {
 			window.location.href = "./login.html";
 		});
 	});
-};
-
-let x = (id) => {
-	return document.getElementById(id).value;
 };
 
 // let signup = [
