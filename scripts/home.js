@@ -24,3 +24,7 @@ document.getElementById("pricei").addEventListener("click", () => {
 document.getElementById("demofrom").addEventListener("click", () => {
 	window.location.href = "./contactsales.html";
 });
+
+document.getElementById("contactsales").addEventListener("click", () => {
+	window.location.href = "./contactsales.html";
+});
